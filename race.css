@@ -1,0 +1,104 @@
+/* Import the Press Start 2p font */
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+
+/* Set the font to Press Start 2p */
+* {
+  font-family: 'Press Start 2p';
+}
+
+/* Set the body's background color to #111 (a dark grey color) */
+body {
+  background-color: #111;
+}
+
+/* Style the button container */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+/* Style the buttons */
+.button {
+  border: 10px solid rgb(255, 30, 0);
+  border-radius: 10px;
+  border-top: 10px solid orange;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Style the main container and details container elements */
+.main-container, .details-container {
+  margin: 0 auto;
+  width: 31.5%;
+  margin-top: 60px;
+}
+
+.main-container {
+    background: antiquewhite;
+    border-radius: 10px;
+}
+
+/* Style the image container */
+.image-container {
+  border: 10px solid rgb(255, 30, 0);
+  border-radius: 10px;
+  border-bottom: 10px solid rgb(255, 197, 5);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* Style the details container */
+.details-container {
+  border: 10px solid rgb(255, 238, 0);
+  border-radius: 10px;
+  border-top: 10px solid rgb(255, 30, 0);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  height: 50%;
+  color: #333;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  background: antiquewhite;
+}
+
+/* Style the body title */
+h1.title {
+  text-align: center;
+  color: antiquewhite;
+  padding-top: 15px;
+}
+
+.tv {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #333;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* .tv::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    box-shadow: inset 0 0 0 1000px #000;
+  }
+  
+  .tv::after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    box-shadow: inset 0 0 0 1000px #fff;
+  } */
+  
